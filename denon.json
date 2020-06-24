@@ -1,0 +1,12 @@
+{
+  "$schema": "https://deno.land/x/denon/schema.json",
+  "env": {
+    "SECRET": "I am learning deno It could be more secret",
+    "PORT": "3000"
+  },
+  "scripts": {
+    "start": {
+      "cmd": "deno run --allow-net --allow-env --allow-read app.ts"
+    }
+  }
+}
